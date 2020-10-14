@@ -1,0 +1,16 @@
+PODS:
+  - ZTSearchBar (0.1.0)
+
+DEPENDENCIES:
+  - ZTSearchBar (from `../`)
+
+EXTERNAL SOURCES:
+  ZTSearchBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTSearchBar: ffe52dc0d200a148f7cfa3b239d17007c7873306
+
+PODFILE CHECKSUM: 5f8002ad266ab2b037dc2abdf7513c34d3591dbb
+
+COCOAPODS: 1.7.5

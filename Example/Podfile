@@ -7,7 +7,5 @@ target 'ZTSearchBar_Example' do
 
   target 'ZTSearchBar_Tests' do
     inherit! :search_paths
-
-    
   end
 end

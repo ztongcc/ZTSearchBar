@@ -1,0 +1,6 @@
+framework module ZTSearchBar {
+  umbrella header "ZTSearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
