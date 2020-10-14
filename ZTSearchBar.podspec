@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZTSearchBar'
   s.version          = '0.1.0'
-  s.summary          = 'ZTSearchBar.'
+  s.summary          = 'A custom system search bar.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC  Add long description of the pod here.
-                       DESC
+  s.description      = 'A custom system search bar.'
 
-  s.homepage         = 'https://github.com/Jemis/ZTSearchBar'
+  s.homepage         = 'https://github.com/ztongcc'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jemis' => 'ztongcc@163.com' }
@@ -30,13 +29,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZTSearchBar/Classes/**/*'
-   s.resources = 'ZTSearchBar/Assets/ZTSearchBar.bundle'
+  s.resource = 'ZTSearchBar/Assets/ZTSearchBar.bundle'
 
   # s.resource_bundles = {
   #   'ZTSearchBar' => ['ZTSearchBar/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'ZTSearchBar/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

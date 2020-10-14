@@ -1,9 +1,9 @@
 {
   "name": "ZTSearchBar",
   "version": "0.1.0",
-  "summary": "A short description of ZTSearchBar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jemis/ZTSearchBar",
+  "summary": "A custom system search bar.",
+  "description": "A custom system search bar.",
+  "homepage": "https://github.com/ztongcc",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,5 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "ZTSearchBar/Classes/**/*",
-  "resources": "ZTSearchBar/Assets/ZTSearchBar.bundle"
+  "resources": "ZTSearchBar/Assets/ZTSearchBar.bundle",
+  "public_header_files": "ZTSearchBar/Classes/**/*.h"
 }

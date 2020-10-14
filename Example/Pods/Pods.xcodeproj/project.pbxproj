@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D9122FFFF4B0EB11F214F66F4E14F1A /* ZTSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B90577AA1051B070157048C87FF54ED /* ZTSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52F660E77A4DAC008AD89AF8B39C811C /* ZTSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFF7B4A3DD14366114C1DC0872EDEE8 /* ZTSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C63F89C45448D268D1328FC35BF621 /* ZTSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBEDA2941CD0B4ECDF45CED0B741A5 /* ZTSearchBar-dummy.m */; };
+		4E99BC7EBC1588F9FC457C38442F62DE /* ZTSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8C61E6599F2E5426F8AA6CB81D32C8 /* ZTSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66627842ED892A9D5EE95CB6CC30A391 /* Pods-ZTSearchBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9D803A5A678621B513E2CA8232FAB8 /* Pods-ZTSearchBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704FF74386F991250371528BEF1DF1CE /* ZTSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22594B554A817035DE3962743970FBDA /* ZTSearchBar.bundle */; };
+		70C1238B910B9AAE4519A9DE8E798962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7F9B151CBFDC955034F0E6DF67B401DE /* ZTSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2877DBF63EEC6D090FDC2D0676B0F4 /* ZTSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81352DE035B775C0EF60641CFF0CBCB6 /* Pods-ZTSearchBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7EEF339EC2815D8C95441F0C4D034 /* Pods-ZTSearchBar_Example-dummy.m */; };
-		9447F5C40AE22BCAC2FB4BC8BC318511 /* ZTSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0574BF44F31DEF089D345E4250C9D0 /* ZTSearchBar-dummy.m */; };
-		95AB3CA958B1B96E9581724308A5FA48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C11C8C95C8EE460B215335600031F49 /* ZTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC9AD053BCCB61EBDC82E5D9FD6A23 /* ZTSearchBar.m */; };
 		97D4C46CCDF934A56E01290F7C40B51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C10D867288B6FDD86CEA2E5C3A54135A /* ZTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E4E6777AAC585E25B8BA384B28807 /* ZTSearchBar.m */; };
 		D9E2795158FB109524EE2ABC7FFD32BE /* Pods-ZTSearchBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 561F5D89FFDC7135643E7D7A5902C067 /* Pods-ZTSearchBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA5D395230D2FB584B6A7CB825C0D70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F2862AD8DA8B6449186FE8866E94BF83 /* Pods-ZTSearchBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A4157EB4FFB2A0582BEB5DF1808B4 /* Pods-ZTSearchBar_Tests-dummy.m */; };
@@ -38,38 +39,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057E4E6777AAC585E25B8BA384B28807 /* ZTSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZTSearchBar.m; path = ZTSearchBar/Classes/ZTSearchBar.m; sourceTree = "<group>"; };
+		07DBEDA2941CD0B4ECDF45CED0B741A5 /* ZTSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTSearchBar-dummy.m"; sourceTree = "<group>"; };
 		091A4157EB4FFB2A0582BEB5DF1808B4 /* Pods-ZTSearchBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTSearchBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		0B0574BF44F31DEF089D345E4250C9D0 /* ZTSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTSearchBar-dummy.m"; sourceTree = "<group>"; };
+		11029AF79DF278A31B8D2F9159ADB36D /* ZTSearchBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTSearchBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		139F8CE9399D162B1EF6A68246CFA91B /* Pods_ZTSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTSearchBar_Example.framework; path = "Pods-ZTSearchBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EC98FDC0147C499B6C8959FCAA66E2 /* Pods-ZTSearchBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTSearchBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B90577AA1051B070157048C87FF54ED /* ZTSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTSearchBar.h; path = ZTSearchBar/Classes/ZTSearchBar.h; sourceTree = "<group>"; };
+		17C7DD0474A03BF0BCFD477F27933EBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		20D8F4C5A830F4AA1A44DD9316D5D35A /* Pods-ZTSearchBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTSearchBar_Tests-Info.plist"; sourceTree = "<group>"; };
-		2903062D5B357E3A8ECB061DDF54C4FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22594B554A817035DE3962743970FBDA /* ZTSearchBar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZTSearchBar.bundle; path = ZTSearchBar/Assets/ZTSearchBar.bundle; sourceTree = "<group>"; };
+		2D8C61E6599F2E5426F8AA6CB81D32C8 /* ZTSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTSearchBar.h; path = ZTSearchBar/Classes/ZTSearchBar.h; sourceTree = "<group>"; };
+		2F33559ADCECC60E59CDA85329BB5734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2F5BD5DF3561FB5B54A4110EB8059FE3 /* Pods-ZTSearchBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTSearchBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CAC5FBCB3FF0038C1ECD8F299FB380F /* Pods-ZTSearchBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTSearchBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CD7EEF339EC2815D8C95441F0C4D034 /* Pods-ZTSearchBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTSearchBar_Example-dummy.m"; sourceTree = "<group>"; };
+		53D448264737B23421C46CC398B5A927 /* ZTSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTSearchBar.xcconfig; sourceTree = "<group>"; };
 		540CBB389AB817C48B54A745D5D1520B /* Pods-ZTSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		561F5D89FFDC7135643E7D7A5902C067 /* Pods-ZTSearchBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTSearchBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		75E2CAAAD8AB6290E75CFA47E704EF8E /* ZTSearchBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTSearchBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7DC86AB94157EED89377E6761E58025C /* ZTSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTSearchBar-prefix.pch"; sourceTree = "<group>"; };
 		8926DE1247E57FF22D55CD855810E13A /* Pods-ZTSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		89341050261AE3BA4A8BEA36BF79C06A /* Pods-ZTSearchBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTSearchBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A4A96B028FCE9724FA68A1C6C675747 /* Pods-ZTSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
 		94B8D480664B52F439CE5FE90237C66E /* Pods-ZTSearchBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTSearchBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		982B665D0D3CD20E3A46E892732BF8FF /* ZTSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZTSearchBar.framework; path = ZTSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9F77887B6B05032B5D2E93B4FE3DBBF /* ZTSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTSearchBar.modulemap; sourceTree = "<group>"; };
 		BB0712E1FC1A1506FD25B3FEFECB476D /* Pods_ZTSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTSearchBar_Tests.framework; path = "Pods-ZTSearchBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9D803A5A678621B513E2CA8232FAB8 /* Pods-ZTSearchBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTSearchBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BFEFA97509936B10188C0B2E55586351 /* ZTSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTSearchBar.xcconfig; sourceTree = "<group>"; };
-		C2FBFA2FBFAAAE13E7CF3CC0447D1693 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9AC9AD053BCCB61EBDC82E5D9FD6A23 /* ZTSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZTSearchBar.m; path = ZTSearchBar/Classes/ZTSearchBar.m; sourceTree = "<group>"; };
 		DC6399F81937E80EAFC8DC289A388FFE /* Pods-ZTSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFFF7B4A3DD14366114C1DC0872EDEE8 /* ZTSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTSearchBar-umbrella.h"; sourceTree = "<group>"; };
-		E3D9D74F4857832AD61979ADA40A2B53 /* ZTSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTSearchBar-Info.plist"; sourceTree = "<group>"; };
+		E866F379A316D54BEABA3FB1304D3F54 /* ZTSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTSearchBar.modulemap; sourceTree = "<group>"; };
 		E92CDC3C10377683CEAC1D391146C3A1 /* Pods-ZTSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA60169FFA5DE36AF68C81FE074D1611 /* ZTSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTSearchBar-Info.plist"; sourceTree = "<group>"; };
+		F3B0117E1066D445BFD04FBEE4175126 /* ZTSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTSearchBar-prefix.pch"; sourceTree = "<group>"; };
 		F4A2EFA78F19A8023DE35134F4F53D1E /* Pods-ZTSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTSearchBar_Example.modulemap"; sourceTree = "<group>"; };
+		FA2877DBF63EEC6D090FDC2D0676B0F4 /* ZTSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTSearchBar-umbrella.h"; sourceTree = "<group>"; };
 		FB05C6518AB846E28986635757794CEE /* Pods-ZTSearchBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTSearchBar_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,19 +84,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		392F59E00919E73A77105F7C4EFC36F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C1238B910B9AAE4519A9DE8E798962 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8422D31B6B786BADFBB133C27E147117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA5D395230D2FB584B6A7CB825C0D70A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA3D3AC18463823F76C510228F8BBCAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95AB3CA958B1B96E9581724308A5FA48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,36 +130,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32C220503D607D5A73386A0672A7002D /* Support Files */ = {
+		4C2EF611E03ECD6F50B05C14880465A9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9F77887B6B05032B5D2E93B4FE3DBBF /* ZTSearchBar.modulemap */,
-				BFEFA97509936B10188C0B2E55586351 /* ZTSearchBar.xcconfig */,
-				0B0574BF44F31DEF089D345E4250C9D0 /* ZTSearchBar-dummy.m */,
-				E3D9D74F4857832AD61979ADA40A2B53 /* ZTSearchBar-Info.plist */,
-				7DC86AB94157EED89377E6761E58025C /* ZTSearchBar-prefix.pch */,
-				DFFF7B4A3DD14366114C1DC0872EDEE8 /* ZTSearchBar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZTSearchBar";
-			sourceTree = "<group>";
-		};
-		4909C77746D9801C5A12864D310DEEE7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBC163A2619C0E5DD70D92E68D576B /* ZTSearchBar */,
+				E989DA8FD15C2416DB70607F42143ADC /* ZTSearchBar */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		922242382C0771AA747EEFF9663A0086 /* Pod */ = {
+		58640841D5330FE32B7B9C96C08C1889 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2903062D5B357E3A8ECB061DDF54C4FC /* LICENSE */,
-				C2FBFA2FBFAAAE13E7CF3CC0447D1693 /* README.md */,
-				75E2CAAAD8AB6290E75CFA47E704EF8E /* ZTSearchBar.podspec */,
+				2F33559ADCECC60E59CDA85329BB5734 /* LICENSE */,
+				17C7DD0474A03BF0BCFD477F27933EBE /* README.md */,
+				11029AF79DF278A31B8D2F9159ADB36D /* ZTSearchBar.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		5B48224BCB8EE27895BED261C40AA918 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22594B554A817035DE3962743970FBDA /* ZTSearchBar.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9820D449A005E825E76DE66096D2B04D /* Pods-ZTSearchBar_Tests */ = {
@@ -176,6 +172,20 @@
 			path = "Target Support Files/Pods-ZTSearchBar_Tests";
 			sourceTree = "<group>";
 		};
+		A05BAD9585000F8AD95ABA880DEEB314 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E866F379A316D54BEABA3FB1304D3F54 /* ZTSearchBar.modulemap */,
+				53D448264737B23421C46CC398B5A927 /* ZTSearchBar.xcconfig */,
+				07DBEDA2941CD0B4ECDF45CED0B741A5 /* ZTSearchBar-dummy.m */,
+				EA60169FFA5DE36AF68C81FE074D1611 /* ZTSearchBar-Info.plist */,
+				F3B0117E1066D445BFD04FBEE4175126 /* ZTSearchBar-prefix.pch */,
+				FA2877DBF63EEC6D090FDC2D0676B0F4 /* ZTSearchBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZTSearchBar";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,23 +194,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C5CBC163A2619C0E5DD70D92E68D576B /* ZTSearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				1B90577AA1051B070157048C87FF54ED /* ZTSearchBar.h */,
-				057E4E6777AAC585E25B8BA384B28807 /* ZTSearchBar.m */,
-				922242382C0771AA747EEFF9663A0086 /* Pod */,
-				32C220503D607D5A73386A0672A7002D /* Support Files */,
-			);
-			name = ZTSearchBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4909C77746D9801C5A12864D310DEEE7 /* Development Pods */,
+				4C2EF611E03ECD6F50B05C14880465A9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				16FB40937C37D8350D9604A45A5F3E4E /* Products */,
 				DEE35E9B18D29A82FC8C4D91582863A0 /* Targets Support Files */,
@@ -224,15 +222,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E989DA8FD15C2416DB70607F42143ADC /* ZTSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C61E6599F2E5426F8AA6CB81D32C8 /* ZTSearchBar.h */,
+				D9AC9AD053BCCB61EBDC82E5D9FD6A23 /* ZTSearchBar.m */,
+				58640841D5330FE32B7B9C96C08C1889 /* Pod */,
+				5B48224BCB8EE27895BED261C40AA918 /* Resources */,
+				A05BAD9585000F8AD95ABA880DEEB314 /* Support Files */,
+			);
+			name = ZTSearchBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B72C9AD284A2D2FEEFC226FE49EE0C4 /* Headers */ = {
+		6086ABB56D5201329E3E4FFE7E0055CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F660E77A4DAC008AD89AF8B39C811C /* ZTSearchBar-umbrella.h in Headers */,
-				4D9122FFFF4B0EB11F214F66F4E14F1A /* ZTSearchBar.h in Headers */,
+				7F9B151CBFDC955034F0E6DF67B401DE /* ZTSearchBar-umbrella.h in Headers */,
+				4E99BC7EBC1588F9FC457C38442F62DE /* ZTSearchBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +268,12 @@
 /* Begin PBXNativeTarget section */
 		2943CFE55D0D3ABF45F29C689B08D730 /* ZTSearchBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FC5F9B70E2293969E0BC7F1BFFB808F /* Build configuration list for PBXNativeTarget "ZTSearchBar" */;
+			buildConfigurationList = 130B2FDE61FDDEA59AA13E0814165064 /* Build configuration list for PBXNativeTarget "ZTSearchBar" */;
 			buildPhases = (
-				0B72C9AD284A2D2FEEFC226FE49EE0C4 /* Headers */,
-				380CF5B350B3458A85C6EC75626B476D /* Sources */,
-				EA3D3AC18463823F76C510228F8BBCAB /* Frameworks */,
-				4FDA28E08DFCDF730CB4647A7023F895 /* Resources */,
+				6086ABB56D5201329E3E4FFE7E0055CD /* Headers */,
+				4E05B4D7D3E39666AE52C3B958693264 /* Sources */,
+				392F59E00919E73A77105F7C4EFC36F2 /* Frameworks */,
+				B74837177F7B4A4E198FA056E9E37FE8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,13 +352,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FDA28E08DFCDF730CB4647A7023F895 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		915DB5CDC8135A47952BC0D04C8BF6BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +366,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B74837177F7B4A4E198FA056E9E37FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704FF74386F991250371528BEF1DF1CE /* ZTSearchBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -373,12 +385,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		380CF5B350B3458A85C6EC75626B476D /* Sources */ = {
+		4E05B4D7D3E39666AE52C3B958693264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9447F5C40AE22BCAC2FB4BC8BC318511 /* ZTSearchBar-dummy.m in Sources */,
-				C10D867288B6FDD86CEA2E5C3A54135A /* ZTSearchBar.m in Sources */,
+				25C63F89C45448D268D1328FC35BF621 /* ZTSearchBar-dummy.m in Sources */,
+				8C11C8C95C8EE460B215335600031F49 /* ZTSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,9 +480,9 @@
 			};
 			name = Release;
 		};
-		66DA7C6C34CF586C5F644CFE4C339C1F /* Debug */ = {
+		54B65E3588601D7734C6C46710649D9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFEFA97509936B10188C0B2E55586351 /* ZTSearchBar.xcconfig */;
+			baseConfigurationReference = 53D448264737B23421C46CC398B5A927 /* ZTSearchBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -597,9 +609,9 @@
 			};
 			name = Release;
 		};
-		BD188E77B57F32C1A0C09E406DECEC7F /* Release */ = {
+		B87FE282A5367BFD8FC3E6D072377F5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFEFA97509936B10188C0B2E55586351 /* ZTSearchBar.xcconfig */;
+			baseConfigurationReference = 53D448264737B23421C46CC398B5A927 /* ZTSearchBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,20 +744,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		130B2FDE61FDDEA59AA13E0814165064 /* Build configuration list for PBXNativeTarget "ZTSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B65E3588601D7734C6C46710649D9C /* Debug */,
+				B87FE282A5367BFD8FC3E6D072377F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4FC5F9B70E2293969E0BC7F1BFFB808F /* Build configuration list for PBXNativeTarget "ZTSearchBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66DA7C6C34CF586C5F644CFE4C339C1F /* Debug */,
-				BD188E77B57F32C1A0C09E406DECEC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
