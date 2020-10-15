@@ -74,6 +74,7 @@ typedef NS_ENUM(NSInteger, ZTSearchStyle) {
 
 - (void)setShowsCancelButton:(BOOL)showCancelButton animated:(BOOL)animated;
 
+- (void)addTapSearchBarHandler:(dispatch_block_t)handler;
 
 @end
 

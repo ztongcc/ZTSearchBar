@@ -23,6 +23,7 @@
 		6CE06642A3AC1EB0F48C3AFA /* Pods_ZTSearchBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9141C8E206594CF416DDB2C /* Pods_ZTSearchBar_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9CD19DF2253843A1005AD1FE /* ZTTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD19DF1253843A1005AD1FE /* ZTTestController.m */; };
 		C6325A6B59BB50206D4FB31D /* Pods_ZTSearchBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED213198D0C553783C7859C /* Pods_ZTSearchBar_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		784C13323DD5A056882019C2 /* Pods-ZTSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTSearchBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZTSearchBar_Tests/Pods-ZTSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7964A0C52E6A2514C70657E5 /* Pods-ZTSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTSearchBar_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTSearchBar_Example/Pods-ZTSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CD19DF0253843A1005AD1FE /* ZTTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTTestController.h; sourceTree = "<group>"; };
+		9CD19DF1253843A1005AD1FE /* ZTTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTTestController.m; sourceTree = "<group>"; };
 		BED213198D0C553783C7859C /* Pods_ZTSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTSearchBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAF5253D907CB7753A8A5C4 /* Pods-ZTSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTSearchBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTSearchBar_Example/Pods-ZTSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9141C8E206594CF416DDB2C /* Pods_ZTSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTSearchBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +147,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZTViewController.h */,
 				6003F5A6195388D20070C39A /* ZTViewController.m */,
+				9CD19DF0253843A1005AD1FE /* ZTTestController.h */,
+				9CD19DF1253843A1005AD1FE /* ZTTestController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -353,6 +358,7 @@
 				6003F59E195388D20070C39A /* ZTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9CD19DF2253843A1005AD1FE /* ZTTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

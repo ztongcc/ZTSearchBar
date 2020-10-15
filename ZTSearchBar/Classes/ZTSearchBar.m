@@ -118,6 +118,8 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
 @property (nonatomic, strong)UIButton * cancelButton;
 @property (nonatomic, strong)UIImageView * inputFieldBackgroundImageView;
 
+@property (nonatomic, copy)dispatch_block_t tapHandler;
+
 
 @end
 
@@ -203,6 +205,19 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
     } completion:^(BOOL finished) {
         self.cancelButton.hidden = !showsCancelButton;
     }];
+}
+
+- (void)addTapSearchBarHandler:(dispatch_block_t)handler {
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTapSearchBar:)];
+    [self addGestureRecognizer:tap];
+    self.inputField.enabled = NO;
+    self.tapHandler = handler;
+}
+
+- (void)onTapSearchBar:(UITapGestureRecognizer *)sender {
+    if (self.tapHandler) {
+        self.tapHandler();
+    }
 }
 
 - (void)commonInit {

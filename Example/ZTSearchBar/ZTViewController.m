@@ -22,15 +22,37 @@
     [super viewDidLoad];
     CGRect screenRect = [UIScreen mainScreen].bounds;
     
-    ZTSearchBar * searchBar = [[ZTSearchBar alloc] initWithFrame:CGRectMake(0, 200, screenRect.size.width, 50) stype:ZTSearchOvalStyle];
+    ZTSearchBar * searchBar = [[ZTSearchBar alloc] initWithFrame:CGRectMake(0, 150, screenRect.size.width, 50) stype:ZTSearchOvalStyle];
     searchBar.inputField.placeholder = @"搜索";
-    searchBar.inputFieldOffset = UIOffsetMake(15, 10);
+    searchBar.inputFieldOffset = UIOffsetMake(10, 10);
     searchBar.endEditingOnClickReturnKey = NO;
     searchBar.delegate = (id)self;
     [self.view addSubview:searchBar];
     self.searchBar = searchBar;
     
-    UISearchBar * se = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 300, screenRect.size.width, 50)];
+    
+    ZTSearchBar * searchBar1 = [[ZTSearchBar alloc] initWithFrame:CGRectMake(0, 250, screenRect.size.width, 50) stype:ZTSearchRoundedStyle];
+    searchBar1.inputField.placeholder = @"搜索";
+    searchBar1.inputFieldOffset = UIOffsetMake(10, 10);
+    searchBar1.endEditingOnClickReturnKey = NO;
+    searchBar1.delegate = (id)self;
+    [self.view addSubview:searchBar1];
+
+    
+    ZTSearchBar * searchBar2 = [[ZTSearchBar alloc] initWithFrame:CGRectMake(0, 350, screenRect.size.width, 50) stype:ZTSearchCustomStyle];
+    searchBar2.backgroundColor = [UIColor orangeColor];
+    searchBar2.inputFieldBackgroundImageView.layer.cornerRadius = 10;
+    searchBar2.inputFieldBackgroundImageView.layer.backgroundColor = [UIColor redColor].CGColor;
+    searchBar2.inputField.placeholder = @"搜索";
+    searchBar2.inputFieldOffset = UIOffsetMake(10, 5);
+    [searchBar2 addTapSearchBarHandler:^{
+        [self performSegueWithIdentifier:@"detail" sender:nil];
+    }];
+    [self.view addSubview:searchBar2];
+    
+    
+    
+    UISearchBar * se = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 450, screenRect.size.width, 50)];
     se.delegate = (id)self;
     se.tag = 1000;
     se.returnKeyType = UIReturnKeySearch;
@@ -42,9 +64,6 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
-    dispatch_after(2, dispatch_get_main_queue(), ^{
-        self.searchBar.text = @"132312";
-    });
 }
 
 
