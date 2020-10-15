@@ -35,15 +35,13 @@ typedef NS_ENUM(NSInteger, ZTSearchStyle) {
 - (void)searchBarSearchButtonClicked:(ZTSearchBar *)searchBar;                     // called when keyboard search button pressed
 - (void)searchBarCancelButtonClicked:(ZTSearchBar *)searchBar API_UNAVAILABLE(tvos);   // called when cancel button pressed
 
-- (void)searchBar:(ZTSearchBar *)searchBar selectedScopeButtonIndexDidChange:(NSInteger)selectedScope API_AVAILABLE(ios(3.0));
-
 @end
 
 
 @interface ZTSearchBarField : UITextField
-
+// default is  CGSizeMake(16, 16);
 @property (nonatomic, assign)CGSize searchIconSize;
-
+// default UIEdgeInsetsMake(0, 12, 0, 6)
 @property (nonatomic, assign)UIEdgeInsets iconInset;
 
 @property (nonatomic, strong)UIImageView * icon;
@@ -54,7 +52,6 @@ typedef NS_ENUM(NSInteger, ZTSearchStyle) {
 
 
 @interface ZTSearchBar : UIView
-
 
 // 搜索框内边距  默认为 0
 @property (nonatomic,   assign)UIOffset inputFieldOffset;
@@ -71,8 +68,7 @@ typedef NS_ENUM(NSInteger, ZTSearchStyle) {
 
 @property (nonatomic, readonly)UIImageView * inputFieldBackgroundImageView;
 
-@property (nonatomic, readonly)NSString * text;
-
+@property (nonatomic, copy)NSString * text;
 
 - (instancetype)initWithFrame:(CGRect)frame stype:(ZTSearchStyle)style;
 

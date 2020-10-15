@@ -50,7 +50,8 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
     NSBundle *bundle = [NSBundle bundleForClass:[ZTSearchBar class]];
     NSURL *url = [bundle URLForResource:@"ZTSearchBar" withExtension:@"bundle"];
     NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-    NSString *path = [imageBundle pathForResource:@"searchBar_icon" ofType:@"png"];
+    NSString * iconName = [NSString stringWithFormat:@"searchBar_icon@%dx",(int)[UIScreen mainScreen].scale];
+    NSString *path = [imageBundle pathForResource:iconName ofType:@"png"];
     
     icon.image = [UIImage imageWithContentsOfFile:path];
     [container addSubview:icon];
@@ -166,7 +167,7 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
     cancelButtonRect.size.width = K_CANCEL_BUTTON_WIDTH;
     cancelButtonRect.size.height = CGRectGetHeight(self.bounds);
     
-    self.cancelButton.hidden = NO;
+    self.cancelButton.hidden = !_showsCancelButton;
     self.inputFieldBackgroundImageView.frame = searchFieldRect;
     self.inputField.frame = searchFieldRect;
     self.cancelButton.frame = cancelButtonRect;
@@ -270,6 +271,10 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
     return YES;
 }
 
+- (void)setText:(NSString *)text {
+    self.inputField.text = text;
+}
+
 - (NSString *)text {
     return self.inputField.text;
 }
@@ -288,6 +293,8 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
     if (!_cancelButton) {
         _cancelButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_cancelButton setTitle:@"取消" forState:UIControlStateNormal];
+        _cancelButton.adjustsImageWhenHighlighted = YES;
+        _cancelButton.adjustsImageWhenDisabled = YES;
         [_cancelButton addTarget:self action:@selector(onCancel:) forControlEvents:UIControlEventTouchUpInside];
         _cancelButton.hidden = YES;
     }

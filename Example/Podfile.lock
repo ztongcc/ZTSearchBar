@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZTSearchBar: c67cca88c4fc31791faf05d58c0aaf8f5a4168ff
+  ZTSearchBar: 8cd1dc8a404ca8a4a3a26e82d01ceb2d0cd6ec7c
 
 PODFILE CHECKSUM: 5f8002ad266ab2b037dc2abdf7513c34d3591dbb
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.3
