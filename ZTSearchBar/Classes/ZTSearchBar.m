@@ -155,8 +155,12 @@ static const CGFloat K_CANCEL_BUTTON_WIDTH = 50;
 
 - (void)didMoveToSuperview {
     [super didMoveToSuperview];
-    [self updateSubViewsLayout];
     [self updateInputContainerBackgroundCorner];
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self updateSubViewsLayout];
 }
 
 - (void)updateSubViewsLayout {
